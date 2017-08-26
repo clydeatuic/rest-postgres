@@ -38,14 +38,20 @@ yet another fullstack node dev't demo
 * Step 2: Deploy to Heroku
   * Verify node version ```$ node --version``` then update ```package.json``` and include engine version.
     ```text
-    {
-      "name": "repo",
-      ... //some codes here
-    },
-      "engines": {
-        "node": "~6.11.2"
-      }
-    }
+	{
+	  "name": "rest-postgres",
+	  "version": "0.0.0",
+	  "private": true,
+	  "scripts": {
+	    "start": "node ./bin/www"
+	  },
+	  "dependencies": {
+	    ...
+	  },
+	  "engines": {
+	    "node": "~6.11.2"
+	  }
+	}
     ```
   * Create file ```.Procfile```
     ```text
