@@ -1,5 +1,5 @@
 # rest-postgres
-testing
+yet another fullstack node dev't demo
 
 ### Requisites (download and install)
 
@@ -21,23 +21,45 @@ testing
     $ cd repo
     $ express --view=ejs ./
     $ npm install
+    $ npm start
     ```
-  * Create file ```.gitignore```
-    .gitignore
+  * Create file ```.gitignore```    
     ```text
-    bin
 	node_modules
-	public
-	routers
-	views
-	*.js
-	*.json
+    ```
+  * Push to remote repo
+  	```console
+  	$ git add .
+  	$ git config user.email "yourname@example.com"
+  	$ git config user.name "yourname"
+  	$ git commit -m "initial commit"
+  	$ git push origin master
+  	```
+* Step 2: Deploy to Heroku
+  * Verify node version ```$ node --version``` then update ```package.json``` and include engine version.
+    ```json
+    {
+      "name": "repo",
+      ... //some codes here
+    },
+      "engines": {
+        "node": "~6.11.2"
+      }
+    }
+    ```
+  * Create file ```.Procfile```
+    ```text
+    web: npm start
+    ```
+  * Using heroku cli
+    ```console
+    $ heroku login
+    $ heroku create lastname-repo
+    $ git push heroku master
+    $ heroku open
     ```
 
-* Steps 2
-* Steps 3
-* Steps 4
-* Steps 5
+* Step 3: loading...
 
 ### References
 
