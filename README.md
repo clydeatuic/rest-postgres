@@ -37,7 +37,7 @@ yet another fullstack node dev't demo
   	```
 * Step 2: Deploy to Heroku
   * Verify node version ```$ node --version``` then update ```package.json``` and include engine version.
-    ```json
+    ```text
     {
       "name": "repo",
       ... //some codes here
