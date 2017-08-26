@@ -14,8 +14,8 @@ yet another fullstack node dev't demo
 ### Procedures
 
 * Step 1: Setup Github and Express Server
-  a. Create new github repo
-  a. Launch terminal
+  * A - Create new github repo
+  * B - Launch terminal
     ```console
     $ git clone https://github.com/username/repo.git
     $ cd repo
@@ -23,11 +23,11 @@ yet another fullstack node dev't demo
     $ npm install
     $ npm start
     ```
-  a. Create file ```.gitignore```    
+  * C - Create file ```.gitignore```    
     ```text
 	node_modules
     ```
-  a. Push to remote repo
+  * D - Push to remote repo
   	```console
   	$ git add .
   	$ git config user.email "yourname@example.com"
@@ -36,7 +36,7 @@ yet another fullstack node dev't demo
   	$ git push origin master
   	```
 * Step 2: Deploy to Heroku
-  * Verify node version ```$ node --version``` then update ```package.json``` and include engine version.
+  * A - Verify node version ```$ node --version``` then update ```package.json``` and include engine version.
     ```text
 	{
 	  "name": "rest-postgres",
@@ -53,11 +53,11 @@ yet another fullstack node dev't demo
 	  }
 	}
     ```
-  * Create file ```.Procfile```
+  * B - Create file ```.Procfile```
     ```text
     web: npm start
     ```
-  * Using heroku cli
+  * C - Using heroku cli
     ```console
     $ heroku login
     $ heroku create lastname-repo
@@ -69,4 +69,4 @@ yet another fullstack node dev't demo
 
 ### References
 
-*[Link 1](https://gigadom.wordpress.com/2014/07/20/working-with-node-js-and-postgresql/)
+* [Link 1](https://gigadom.wordpress.com/2014/07/20/working-with-node-js-and-postgresql/)
