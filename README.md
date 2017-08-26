@@ -14,8 +14,8 @@ yet another fullstack node dev't demo
 ### Procedures
 
 * Step 1: Setup Github and Express Server
-  * Create new github repo
-  * Launch terminal
+  a. Create new github repo
+  a. Launch terminal
     ```console
     $ git clone https://github.com/username/repo.git
     $ cd repo
@@ -23,11 +23,11 @@ yet another fullstack node dev't demo
     $ npm install
     $ npm start
     ```
-  * Create file ```.gitignore```    
+  a. Create file ```.gitignore```    
     ```text
 	node_modules
     ```
-  * Push to remote repo
+  a. Push to remote repo
   	```console
   	$ git add .
   	$ git config user.email "yourname@example.com"
