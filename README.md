@@ -16,12 +16,13 @@ testing
 * Step 1: Setup Github and Express Server
   * Create new github repo
   * Launch terminal
-  ```console
-  $ git clone https://github.com/username/repo.git
-  $ express --view=ejs ./
-  $ npm install
-  ```
-  * Create new file ```.gitignore```
+    ```console
+    $ git clone https://github.com/username/repo.git
+    $ cd repo
+    $ express --view=ejs ./
+    $ npm install
+    ```
+  * Create file ```.gitignore```
     .gitignore
     ```text
     bin
